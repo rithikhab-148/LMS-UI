@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    background-image:linear-gradient(to right,rgb(188, 103, 214),rgb(219, 181, 55),rgb(188, 103, 214));
+    color: rgb(15, 23, 42);
+    line-height: 1.6;
+}
+
+h1, h2, h3 {
+    margin-bottom: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}

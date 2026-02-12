@@ -1,0 +1,59 @@
+.card {
+    background: rgb(255, 255, 255);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+}
+
+.card:hover {
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+}
+
+.btn {
+    padding: 10px 18px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn-primary {
+    background: rgb(37, 99, 235);
+    color: rgb(255, 255, 255);
+}
+
+.btn-primary:hover {
+    background: rgb(29, 78, 216);
+}
+
+.btn-disabled {
+    background: rgb(100, 116, 139);
+    color: rgb(255, 255, 255);
+    cursor: not-allowed;
+}
+
+.badge {
+    padding: 5px 10px;
+    border-radius: 20px;
+    font-size: 12px;
+    color: rgb(255, 255, 255);
+}
+
+.success { background: rgb(22, 163, 74); }
+.danger { background: rgb(220, 38, 38); }
+.warning { background: rgb(245, 158, 11); }
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid rgb(204, 204, 204);
+}
+
+input:focus {
+    border-color: rgb(37, 99, 235);
+    outline: none;
+}
